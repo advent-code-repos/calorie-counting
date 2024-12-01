@@ -23,7 +23,8 @@
 </p>
 <p align="left">Built with the tools and technologies:</p>
 <p align="left">
-	</p>
+	<img src="https://img.shields.io/badge/Rust-000000.svg?style=flat-square&logo=Rust&logoColor=white" alt="Rust">
+</p>
 <br>
 
 ## 🔗 Table of Contents
@@ -60,7 +61,16 @@
 
 ```sh
 └── calorie-counting/
-    └── LICENSE
+    ├── Cargo.toml
+    ├── LICENSE
+    ├── README.md
+    └── src
+        ├── controllers
+        │   ├── calorie_controller.rs
+        │   └── mod.rs
+        ├── inputs
+        │   └── input.example
+        └── main.rs
 ```
 
 
@@ -71,7 +81,48 @@
 		<summary><b>__root__</b></summary>
 		<blockquote>
 			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/calorie-counting/blob/master/Cargo.toml'>Cargo.toml</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
 			</table>
+		</blockquote>
+	</details>
+	<details> <!-- src Submodule -->
+		<summary><b>src</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/advent-code-repos/calorie-counting/blob/master/src/main.rs'>main.rs</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+			<details>
+				<summary><b>inputs</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/advent-code-repos/calorie-counting/blob/master/src/inputs/input.example'>input.example</a></b></td>
+						<td><code>❯ REPLACE-ME</code></td>
+					</tr>
+					</table>
+				</blockquote>
+			</details>
+			<details>
+				<summary><b>controllers</b></summary>
+				<blockquote>
+					<table>
+					<tr>
+						<td><b><a href='https://github.com/advent-code-repos/calorie-counting/blob/master/src/controllers/mod.rs'>mod.rs</a></b></td>
+						<td><code>❯ REPLACE-ME</code></td>
+					</tr>
+					<tr>
+						<td><b><a href='https://github.com/advent-code-repos/calorie-counting/blob/master/src/controllers/calorie_controller.rs'>calorie_controller.rs</a></b></td>
+						<td><code>❯ REPLACE-ME</code></td>
+					</tr>
+					</table>
+				</blockquote>
+			</details>
 		</blockquote>
 	</details>
 </details>
@@ -83,7 +134,8 @@
 
 Before getting started with calorie-counting, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** Error detecting primary_language: {}
+- **Programming Language:** Rust
+- **Package Manager:** Cargo
 
 
 ### ⚙️ Installation
@@ -104,17 +156,33 @@ Install calorie-counting using one of the following methods:
 
 3. Install the project dependencies:
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+
+**Using `cargo`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Rust-000000.svg?style={badge_style}&logo=rust&logoColor=white" />](https://www.rust-lang.org/)
+
+```sh
+❯ cargo build
+```
+
 
 
 
 ### 🤖 Usage
 Run calorie-counting using the following command:
-echo 'INSERT-RUN-COMMAND-HERE'
+**Using `cargo`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Rust-000000.svg?style={badge_style}&logo=rust&logoColor=white" />](https://www.rust-lang.org/)
+
+```sh
+❯ cargo run
+```
+
 
 ### 🧪 Testing
 Run the test suite using the following command:
-echo 'INSERT-TEST-COMMAND-HERE'
+**Using `cargo`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Rust-000000.svg?style={badge_style}&logo=rust&logoColor=white" />](https://www.rust-lang.org/)
+
+```sh
+❯ cargo test
+```
+
 
 ---
 ## 📌 Project Roadmap
